@@ -133,8 +133,9 @@ footer {
 }
 
 .footer-copy {
-    display: flex;
     color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-copy a {
@@ -262,5 +263,7 @@ footer {
     }
     .footer-copy {
         margin-top: .2rem;
+        align-items: center;
+        justify-content: center;
     }
 }
